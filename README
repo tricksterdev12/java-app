@@ -1,0 +1,31 @@
+L2 INFORMATIQUE
+
+Groupe 1B 
+-Numéro groupe 11
+1-KISSAMI Safae 22107869
+2-ESSETNI Elmahdi 22108874
+3-SHAHI Shadi  22101050
+4-TARISSI Mehdi 22111203
+
+1 tapez la commande suivante pour compiler le code :
+	javac -d ./build -cp .:./lib/solverstests.jar:./lib/constraintstests.jar ./src/constraints/*.java ./src/solvers/*.java  ./src/tests/Demo.java
+	
+	
+2 tapez la commande suivante pour lancer le Demo des tests
+       java -cp ./build:./lib/constraintstests.jar:./lib/solverstests.jar tests.Demo
+       
+  tapez la commande suivante pour lancer le programme des activitées avec les PrecedentConstraints
+       java -cp ./build:./lib/constraintstests.jar:./lib/solverstests.jar tests.DemoConstraint
+       
+  tapez la commande suivante pour lancer le programme de TopologicalSorter
+       java -cp ./build:./lib/constraintstests.jar:./lib/solverstests.jar tests.DemoSolvers
+  
+  tapez la commande suivante pour lancer le programme des Emploi du temps
+       java -cp ./build:./lib/constraintstests.jar:./lib/solverstests.jar tests.DemoEmploiDuTemps
+       
+   
+       
+   
+
+
+
